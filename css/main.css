@@ -1,0 +1,81 @@
+body { /*body formating*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: stretch;
+  margin: 0;
+  padding: 0;
+  background-color: silver;
+}
+
+header { /*header formating*/
+  border: 2px solid blue;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: white;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.left_logo {
+  order: 1;
+}
+
+.welcome {
+  order: 2;
+}
+
+.center_pic { /*Center Section formating*/
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #7d97ad;
+}
+
+.source_code { /*Image positioning*/
+  padding-right: 15%;
+  padding-left: 15%;
+  width: 70%;
+}
+
+.featured_work { /*styling for the featured work elements*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 15%;
+  padding-left: 15%;
+  width: 70%;
+}
+
+.web {
+  order: 1;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.python {
+  order: 2;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.cplusplus {
+  order: 3;
+  cursor: pointer;
+  padding: 5px
+}
+
+.text { /*formating to keep text with images*/
+  display: inline-block;
+  text-align: center;
+}
+
+
